@@ -74,13 +74,12 @@ img{
   width: 99%;
   position: absolute;
   color: white;
-  top: 85%;
-  transform: translateY(-50%);
+  top: 0;
   text-align: center;
 }
 
 .content p{
-  margin-top: 80px;
+  margin-top: 120px;
   font-size: 80px;
   font-weight: 800;
 }
@@ -97,24 +96,19 @@ img{
   grid-template-rows: 1fr 1fr;
 }
 
-@media only screen and (min-device-width:320px) and (max-devicewidth:480px){
-  body{
-    margin-bottom: 1100px;
-  }
 
-  .content{
-    top: 75%;
-    transform: translateY(-8%);
-  }
 
+@media (min-width:390px) and (max-width:840px){
   .container {
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
     margin-bottom: 100px;
   }
 }
+
+
 
 
 .card{
