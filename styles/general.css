@@ -97,25 +97,6 @@ img{
   grid-template-rows: 1fr 1fr;
 }
 
-@media (max-width: 720px) {
-  body{
-    margin-bottom: 1100px;
-  }
-
-  .content{
-    top: 75%;
-    transform: translateY(-8%);
-  }
-
-  .container {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    justify-items: center;
-    align-items: center;
-    margin-bottom: 100px;
-  }
-}
-
 @media only screen and (min-device-width:320px) and (max-devicewidth:480px){
   body{
     margin-bottom: 1100px;
